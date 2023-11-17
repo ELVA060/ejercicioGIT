@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Ejemplos de Selectores CSS</title>
+</head>
+<body >
+
+      <!-- 
+        Al final no se peuden repetir colores
+        No puedes modificar el html ni cambiar el orden 
+    -->
+
+    <h1>Ejemplos de Selectores CSS</h1>
+
+    <!-- Ejemplo 1: Selector de tipo eti-->
+
+    <p>1. Cambia el color de el encabezado</p>
+    
+    <!-- Ejemplo 2: Selector de clase -->
+    <p class="destacado">2. Cambia el color  por clase</p>
+
+    <!-- Ejemplo 3: Selector de ID -->
+    <div id="miDiv" class="destacado">3. Cambia el color por ID</div>
+
+    <!-- Ejemplo 4: Selector descendente -->
+    <div>
+        <p>4.- Cambia el color de esta p que esta dentro del div</p>
+        <p>Esta p no tiene que cambiar</p>
+        <p>Esta tampoco</p>
+    </div>
+
+    <!-- Ejemplo 5: Selector hijo -->
+    <ul>5 Cambia el colo de segundo li 
+        <li> Este elemento li es hijo directo de ul.</li>
+        <li> Este elemento li es hijo directo de ul.</li>
+        <li> Este elemento li es hijo directo de ul.</li>
+    </ul>
+
+    <ul>5.1Cambia el colo de segundo ultimo li utiliza last 
+        <li> Este elemento li es hijo directo de ul.</li>
+        <li> Este elemento li es hijo directo de ul.</li>
+        <li> Este elemento li es hijo directo de ul.</li>
+    </ul>
+
+    <!-- Ejemplo 6: Selector de atributo -->
+    <p href="https://www.ejemplo.com">6. Cambia el color basado en el atributo</p>
+
+    <!-- Ejemplo 7: Selector de pseudo-clase -->
+    <p class="enlace">Cambia el color de todos los 9 que tengan la clase enlace</p>
+    <div class="enlace">Este no tiene que cambiar</div>
+    <p class="enlace">Este si</p>
+   
+    <!-- Ejemplo 8: Selector de primer hijo -->
+    <ul>
+        <li>8. Selector de primer hijo Este es el primer elemento li.</li>
+        <li>Segundo elemento li</li>
+    </ul>
+    <style>
+         h1 {background-color: blue;}
+    .destacado {
+       background-color: red;
+    }
+    div p {
+        color: orange;
+    }
+    ul li:nth-child(2) {
+        background-color:  purple;
+    }
+    ul:last-child li:nth-last-child(2) {
+        color: pink;
+    }
+    p[href="https://www.ejemplo.com"] {
+        color: brown;
+    }
+    p.enlace {
+        background-color: magenta;
+    }
+    ul li:first-child {
+        background-color: teal;
+    }
+    </style>
+</body>
+</html>
