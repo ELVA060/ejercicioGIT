@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* header inicia */
+
+
+
+
+header {
+    background: linear-gradient(270deg, #000000 0%, #7E7E7E 100%);
+    display: flex;
+    mix-blend-mode: overlay;
+    background-size: cover;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 20px 0;
+    height: 123px;
+    width: 100%;
+    position: fixed;
+
+}
+
+
+
+.logos_ul {
+    margin-left: 110px;
+    top: 100px;
+
+
+}
+
+.logo1 {
+    width: 89px;
+    height: 23.819px;
+
+
+}
+
+.logo2 {
+    width: 168.765px;
+    height: 23.55px;
+
+}
+
+
+ul {
+
+    list-style: none;
+    font-size: 20px;
+
+}
+
+
+ul :nth-child(3) {
+    border-right: 1px solid rgb(255, 255, 255);
+
+
+}
+
+.linea1 {
+    border-right: 1px solid rgb(244, 244, 248);
+
+
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0 15px;
+
+}
+
+li {
+    display: block;
+    display: inline-block;
+    position: relative;
+
+
+
+}
+
+.iconomenu {
+    margin-right: 90px;
+
+
+}
+
+
+/* header termina */
+
+/* Body inicio-portada*/
+.Real-Estate {
+    background-image: url(/IMG/fondo1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1400px;
+    width: 102%;
+    display: flex;
+    overflow-x: hidden;
+
+
+
+}
+
+
+.titulo {
+    margin-left: 180px;
+    padding: 644px 0;
+    display: flex;
+    width: 746px;
+    height: 99px;
+    flex-direction: column;
+    justify-content: center;
+    font-size: xx-large;
+
+
+}
+
+
+.titulo h1,
+p {
+    color: #FFF;
+
+
+
+}
+
+.social_vertical {
+    position: absolute;
+    left: 54px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    top: 500px;
+    justify-content: center;
+    align-content: flex-end;
+
+
+
+
+}
+
+.social_vertical {
+    height: 50px;
+    width: 50px;
+
+}
+
+.social_vertical .follow {
+    font-size: larger;
+    transform: rotate(90deg);
+
+
+
+}
+
+.icono_vertical {
+    margin-top: 100px;
+    
+
+
+
+}
+
+
+.social_vertical .v-line {
+    border-left: 2px solid #000;
+    height: 80px;
+   left: 25px;
+    position: inherit;
+
+    
+
+}
+
+
+
+
+/* Body fin-portada*/
