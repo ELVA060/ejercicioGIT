@@ -22,6 +22,7 @@ header {
     height: 123px;
     width: 100%;
     position: fixed;
+    border-bottom: solid #fdf9f9;
 
 }
 
@@ -131,15 +132,17 @@ p {
 
 }
 
+/* Body vertilcal iconos inicio*/
+
 .social_vertical {
+    display: flex;
     position: absolute;
     left: 54px;
     display: flex;
     flex-direction: column;
     gap: 20px;
-    top: 500px;
-    justify-content: center;
-    align-content: flex-end;
+    top: 450px;
+
 
 
 
@@ -155,6 +158,8 @@ p {
 .social_vertical .follow {
     font-size: larger;
     transform: rotate(90deg);
+    font-family: sans-serif;
+
 
 
 
@@ -162,7 +167,7 @@ p {
 
 .icono_vertical {
     margin-top: 100px;
-    
+
 
 
 
@@ -170,15 +175,32 @@ p {
 
 
 .social_vertical .v-line {
-    border-left: 2px solid #000;
-    height: 80px;
-   left: 25px;
-    position: inherit;
+    border-left: 2px solid #f3f1f1;
+    height: 75px;
+    left: 50%;
+    position: absolute;
+    top: 80px;
 
-    
+
 
 }
 
+/* Body vertilcal iconos fin*/
+
+.cuadrobuscador ,input {
+    background-color: transparent;
+    width: 60px;
+    height: 529px;
+    border: #f3f1f1 solid 1px;
+    border-radius: 15px;
+    color: #f3f1f1;
+    padding: 22px 266px 19px;
+
+
+
+
+
+}
 
 
 
