@@ -541,8 +541,7 @@ h2 {
 .galeri_3 {
 
     display: grid;
-
-    grid-template-rows: 1fr ;
+    grid-template-rows: 1fr 1fr ;
     overflow: hidden;
     height: 100%;
     width: 100%;
@@ -585,6 +584,8 @@ h2 {
 
 .IMG_G3 {
     height: 22vw;
+    position: relative;
+    
 }
 
 .IMG_G3 img {
@@ -594,26 +595,21 @@ h2 {
     height: 100%;
     vertical-align: middle;
     border-style: none;
-    z-index: 2;
-
-
-
-}
-
-.div_p3 {
-    background: #f3f1f1;
-    height: 140px;
     
-}
-
-.p_imagen2 {
-    font-size: 17px;
-    margin-bottom: 0%;
-    color: #000;
-}
-
-.p_imagen3 .p_imagen2{
     
+
+
+}
+
+
+
+
+
+.p_imagen2, .p_imagen3{
+
+    position: absolute
+    ;
+   
     color: #000;
 } 
 
