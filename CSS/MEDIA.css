@@ -1,0 +1,74 @@
+/* envacezado inicia*/
+
+@media (max-width: 1400px)
+ { .header{ grid-template-columns: 1fr auto auto auto auto;
+}
+
+}
+@media screen and (max-width:550px)
+{
+    #logo_movil{
+        margin: 5px 0;
+        height: 50px;
+    display: block;
+}
+.logos_ul, .navbar{
+    display: none;
+}
+
+.header, .buscador_rect{ grid-template-columns: 1fr auto auto auto ;
+
+}
+
+/* revisar para que aparezca el menu*/
+
+.Real-Estate { 
+    background-position: center;
+}
+
+
+.text_G3_city, .text_G3_name, .infofooter2 span a, .infofooter1 span a { 
+    font-size: 12px;
+}
+
+.titulos_galeri1, .service_parrafo, .parrafo1_g2, #copyright, .infofooter4 span a, .infofooter3 span a, #emailform input, #nombreform input, #nombreform label, #nombreForm{ 
+    font-size: 12px;
+}
+.titulo1_G1,.PROP-RENT_TITULO,.G3_T2_Develop, .titulo_Art4, #titulofooter2 { 
+    font-size: 35px;
+}
+
+}
+
+@media (max-width:460px)
+ { 
+    .titulo { font-size: 25px;}
+}
+/* encabezado fin*/
+/* galeria 1 inicio*/
+@media (max-width: 1000px) {
+.titulos_galeri1 {
+    font-size: 22px;
+    line-height: 23px;
+}
+
+}
+
+
+@media (max-width: 1000px)
+{.botton_galeri1 {
+    padding: 5px 20px;
+}}
+
+@media (max-width: 1300px)
+{.botton_galeri1 {
+    line-height: 30px;
+}}
+@media (max-width: 600px)
+{.botton_galeri1 {
+    font-size: 15px;
+
+    margin-left: 300px;
+}
+
+}
