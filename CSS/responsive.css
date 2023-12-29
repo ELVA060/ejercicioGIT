@@ -1,0 +1,311 @@
+/* encabezado y portada fin*/
+
+@media only screen and (max-width: 1320px) {
+
+    #navbar {
+        display: none;
+
+    }
+
+    .titulo {
+        margin-left: 40px;
+    }
+
+}
+
+
+@media screen and (max-width:1198px) {
+    .buscador_rect {
+        margin-left: 600px;
+    }
+
+}
+
+@media (max-width: 1000px) {
+    #contenedor_G3 {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width: 900px) {
+    #contenedor_portada {
+        width: 100%;
+    }
+
+    #navbar ul {
+        flex-direction: column;
+        /* Cambia la dirección del flex container */
+        margin-left: 0;
+    }
+
+
+    #contenedor_portada {
+        grid-template-columns: 0.25fr 1fr;
+
+    }
+
+    .buscador_rect {
+        margin-left: 0px;
+    }
+
+    .titulo .buscador_rect .rect_flecha {
+        align-items: center;
+    }
+
+}
+
+@media (max-width: 770px) {
+
+
+    #contenedor_G3 {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .titulo1_G1,
+    .prop-rent_titulo,
+    .G3_T2_Develop,
+    .titulo-service h3,
+    #titulofooter2 {
+        font-size: 29px;
+        text-align: start;
+    }
+
+    .galeri,
+    .galery_1,
+    .G3_T1_Luxury,
+    #titulofooter1 {
+        font-size: 20px;
+        text-align: start;
+        margin-top: 30px;
+    }
+
+    .View_botton {
+        font-size: 17px;
+        line-height: 17px;
+    }
+
+    .NEXT1,
+    .NEXT2 {
+        font-size: 10px;
+       
+    }
+
+    .parrafo1_g2 {
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    .text_G3_name {
+        font-size: 12px;
+    }
+
+    .text_G3_city {
+        font-size: 20px;
+    }
+
+    #footerSeccion1 {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto 1fr;
+    }
+
+    #miniForm {
+        grid-row: auto;
+        grid-column: auto;
+    }
+
+    #infofooter {
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto;
+    }
+
+    #service {
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+    }
+
+    .infofooter3 span a,
+    .infofooter2 span a,
+    .infofooter2 span a {
+        justify-content: center;
+        font-size: 12px;
+    }
+
+    .IMG_Service {
+        text-align: center
+    }
+
+    .infofooter1 {
+        display: none;
+    }
+
+    
+}
+
+
+@media (max-width:550px) {
+    #contenedor_portada {
+        grid-template-columns: 0 1fr;
+
+
+    }
+
+    #logo_movil {
+        margin: 5px 0;
+
+        display: block;
+    }
+
+    #logo {
+
+        display: none;
+    }
+
+    .social_vertical {
+        display: none;
+    }
+
+    .buscador_rect {
+        margin-left: 0px;
+    }
+
+
+}
+
+@media screen and (max-width:518px) {
+
+    #galeria_izquierda,
+    #galeria_derecha {
+
+        grid-template-columns: 1fr;
+    }
+
+    .titulo_y_botton1,
+    .titulo_y_botton2 {
+        margin: 0 5%;
+        grid-column: 1/3;
+        font-size: 30px;
+    }
+
+    .contenedor_G1,
+    .contenedor_G2 {
+        grid-column: 1/3;
+        height: 70vw;
+        grid-row: 2/3;
+        margin-top: 7%;
+        margin-right: 0;
+    }
+
+    .NEXT1,
+    .NEXT2 {
+        display: none;
+    }
+
+    .botton_galeri1,
+    .botton_galeri2,
+    .botton_galeri3 {
+
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+        margin-top: 20px;
+    }
+
+    .titulo {
+        font-size: 30px;
+        margin-left: 70px;
+    }
+
+    .rect_flecha .input_rect {
+        margin-left: 50px;
+    }
+
+    #emailform input,
+    #emailform label,
+    #nombreform input,
+    #botonregistro input,
+    .infofooter4 span a {
+        height: 30px !important;
+        font-size: 14px;
+    }
+
+    #copyright {
+        line-height: 10px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 370px) {
+    #contenedor_G3 {
+        grid-template-columns: 1fr;
+    }
+
+    .titulo1_G1,
+    .prop-rent_titulo,
+    .G3_T2_Develop,
+    .titulo-service h3,
+    #titulofooter2 {
+        font-size: 19px;
+    }
+
+    .galeri,
+    .galery_1,
+    .G3_T1_Luxury,
+    #titulofooter1 {
+        font-size: 12px;
+
+    }
+
+    #nombreform label,
+    #emailform label {
+        font-size: 10px;
+    }
+
+    #titulofooter1,
+    #titulofooter2 {
+        line-height: 25px;
+        text-align: center;
+    }
+
+    .View_botton {
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    .NEXT1,
+    .NEXT2 {
+        font-size: 5px;
+      
+    }
+
+    .parrafo1_g2 {
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    .text_G3_name {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .text_G3_city {
+        font-size: 15px;
+        line-height: 10px;
+    }
+
+
+
+}
+
+@media screen and (max-width:347px) {
+    .rect_flecha .input_rect {
+        width: 250px;
+        margin-left: 20px;
+    }
+
+}
+
+@media screen and (max-width:230px) {
+    #contenedor_portada {
+        width: 700px;
+    }
+
+}
