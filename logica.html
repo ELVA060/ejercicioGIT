@@ -8,6 +8,28 @@
 <body>
  
 
-    <script src="./SRC/ejercicios.js"></script>
+    <script src="./SRC/ejercicios.js">
+
+// Solicitar al usuario que ingrese un valor entero
+let valorIngresado = prompt("Ingrese un valor entero:");
+
+// Convertir el valor ingresado a un número entero
+valorIngresado = parseInt(valorIngresado);
+
+// Mostrar la lista de números desde 0 hasta el valor ingresado
+document.write("Lista de números: ");
+for (var i = 0; i <= valorIngresado; i++) {
+    // Imprimir el número
+    document.write(i);
+
+    // Si no es el último número, añadir una coma y un espacio
+    if (i < valorIngresado) {
+        document.write(", ");
+    }
+}
+
+
+
+    </script>
 </body>
 </h

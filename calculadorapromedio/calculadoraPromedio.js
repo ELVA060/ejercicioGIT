@@ -1,10 +1,10 @@
 // 1- Solicitar el nombre y apellido del  alumno.
 
-let nombreyapellido= prompt("Ingrese Nombre y Apellido")
+let nombreyapellido= prompt("Nombre y Apellido")
 
 // 2- Solicitar el nombre de la materia.
 
-let materia= prompt("Ingrese el nombre de la materia")
+let materia= prompt("Materia")
 
 //3- Pedir las tres notas del usuario
 
